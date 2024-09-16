@@ -1,0 +1,51 @@
+<<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Noite dos Demônios</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Em uma noite sombria e chuvosa, você encontra um antigo livro empoeirado na biblioteca da cidade. Ele fala sobre um mundo paralelo onde demônios travessos se divertem em uma festa eterna. Curioso, você decide entrar nesse mundo!</p>
+            <button class="btn-proximo" data-proximo="1">Entrar no mundo dos demônios</button>
+            <button class="btn-proximo" data-proximo="2">Fechar o livro e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você é sugado para dentro do livro e aparece em uma cidade distorcida, cheia de criaturas esquisitas e casas tortas. Um demônio de chapéu alto se aproxima e oferece duas opções de diversão.</p>
+            <button class="btn-proximo" data-proximo="3">Participar de um baile macabro</button>
+            <button class="btn-proximo" data-proximo="4">Explorar a cidade estranha</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você decide fechar o livro, mas algo dentro de você sente que perdeu uma grande aventura. A curiosidade fica martelando em sua mente.</p>
+            <button class="btn-proximo" data-proximo="1">Entrar no mundo dos demônios</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No baile macabro, as sombras dançam e risadas ecoam. Você é convidado a dançar com um demônio de olhos brilhantes. No meio da dança, ele sussurra que um segredo está escondido na torre mais alta.</p>
+            <button class="btn-proximo" data-proximo="5">Subir a torre</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Ao explorar a cidade, você encontra um mercado de itens estranhos. Um vendedor oferece uma poção que promete revelar a verdade sobre os demônios.</p>
+            <button class="btn-proximo" data-proximo="6">Comprar a poção</button>
+            <button class="btn-proximo" data-proximo="7">Continuar explorando</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Na torre, você descobre um livro antigo que contém o verdadeiro nome dos demônios. Ao pronunciá-lo, eles se tornam seus amigos e a festa nunca acaba!</p>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Você toma a poção e, de repente, vê os demônios em sua verdadeira forma: criaturas tristes que buscam amizade. Você decide ajudá-los a encontrar alegria.</p>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Ao continuar explorando, você encontra um portal que leva a uma dimensão ainda mais estranha. Os demônios pedem sua ajuda para resolver um mistério que ameaça a festa eterna.</p>
+            <button class="btn-proximo" data-proximo="5">Ajudar os demônios</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
